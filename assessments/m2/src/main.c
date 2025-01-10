@@ -20,8 +20,12 @@
  * @date April 1 2017
  *
  */
-#include "platform.h"
-#include "memory.h"
+#include "../include/common/platform.h"
+#include "../include/common/memory.h"
+// #include "../include/msp432/msp432p401r.h"
+// #include "../include/msp432/msp_compatibility.h"
+// #include "../include/msp432/system_msp432p401r.h"
+
 
 #define MAX_LENGTH (10)
 char buffer[MAX_LENGTH];
